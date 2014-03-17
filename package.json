@@ -9,6 +9,7 @@
   "author": "Joe Beuckman",
   "license": "Don't read software licenses. Don't write software licenses.",
   "dependencies": {
+    "request": "*",
     "node-twitter": "https://github.com/mantacode/node-twitter/tarball/master"
   }
 }
