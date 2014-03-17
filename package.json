@@ -1,0 +1,14 @@
+{
+  "name": "autonomous_rgb",
+  "version": "0.0.1",
+  "description": "Look for newly saved snapshots and post them to twitter.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Beuckman",
+  "license": "Don't read software licenses. Don't write software licenses.",
+  "dependencies": {
+    "node-twitter": "https://github.com/mantacode/node-twitter/tarball/master"
+  }
+}
