@@ -8,12 +8,12 @@ var twitterRestClient = new Twitter.RestClient(
 					       config.access_secret
 );
 
-function post(){
+function post(status, image){
 
 twitterRestClient.statusesUpdateWithMedia(
 					   {
-					       'status': 'Posting a tweet w/ attached media.',
-						   'media[]': './image.png'
+					       'status': status,
+						   'media[]': image
 						   },
 					   function(error, result) {
 					   if (error)
@@ -32,4 +32,6 @@ twitterRestClient.statusesUpdateWithMedia(
 
 }
 
-setInterval(post, 30000);
+setInterval(function(){
+	post("Posting a tweet w/ attached media.", "./image/png");
+    }, 30000);
