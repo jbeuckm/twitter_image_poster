@@ -30,5 +30,5 @@ function post(status, image) {
 }
 
 setInterval(function () {
-  post("Posting a tweet w/ attached media.", "./image/png");
+  post("Posting a tweet w/ attached media.", "./image.png");
 }, 30000);
